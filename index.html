@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap" rel="stylesheet">
+  <title>Queenz Closet</title>
+  <link rel="icon" href="./css/0001.jpg" type="image/x-icon">
+  <style>
+    .zoom {
+      /*padding: 50px;*/
+     /*background-color: green;*/
+      transition: transform .2s; /* Animation */
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    .zoom:hover {
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      function openMenu(){
+        console.log("clicked")
+        var x = document.getElementById("mob-nav");
+        if(x.style.display === "flex") {
+          console.log("flex")
+          x.style.display = "none";
+        } else {
+          console.log("not flex")
+          x.style.display = "flex";
+        }
+      }
+    </script>
+</head>
+
+<body style="background-color: rgb(195, 187, 187)">
+
+  <nav class="navbar background">
+    <ul class="nav-list" style="position:sticky">
+      <div class="logo"><img src="./css/0001.jpg" alt="Logo"></div>
+      <li> <a href="#Home"><strong>Home</strong></a></li>
+      <li><a href="#Collection"><strong>Collection</strong></a></li>
+      <li><a href="#Testimonials"><strong>Testimonials</strong></a></li>
+      <li><a href="#Contact Us"><strong>Contact Us</strong></a></li>
+    </ul>
+  </nav>
+  <div class="mobile-navigation">
+  <div class="mobnav">
+    <div class="logo-mobile"><img class="logo-mob-img" src="./css/0001.jpg" alt="Logo"></div>
+    <a href="javascript:void(0);" class="icon" onClick="openMenu()">
+      <i id="hamburger-menu" class="fa fa-bars"></i>
+    </a>
+  </div>
+    <ul class="nav-list-mobile" id="mob-nav">
+      <li class="nav-item-mobile"> <a href="#Home"><strong>Home</strong></a></li>
+      <li class="nav-item-mobile"><a href="#Collection"><strong>Collection</strong></a></li>
+      <li class="nav-item-mobile"><a href="#Testimonials"><strong>Testimonials</strong></a></li>
+      <li class="nav-item-mobile"><a href="#Contact Us"><strong>Contact Us</strong></a></li>
+    </ul>
+  </div>
+
+  <section class=" background firstSection" id="Home">
+    <div class="box-main">
+      <div class="firsthalf">
+        <p class="textbig">Our designs make the ordinary EXTRAORDINARY</p>
+        <p class="textsmall">I am a simple housewife but designing was always on my mind. One day I was sitting with a
+          couple of friends in a cafe when they asked me to help them get their tops stitched. To begin with I was not
+          prepared at all but soon I started taking guidance in the working and the materials. In the beginning there
+          were a few hiccups but I kept on moving passionately over five years and soon there was no turning back.
+          I started this all with a room but with God's grace and my efforts I have now made a studio for my venture,
+          QUEENZ CLOSET
+      </div>
+      <div class="secondhalf">
+        <img src="./css/0003.jpg" alt="Sabneet Sachdeva">
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <hr id="Collection" style="color: rgb(195, 187, 187) ;">
+  <h6
+    style="font-size: 25px;font-style:bold; align-items:center; justify-content:center; margin: 150px; font-style:italic; color:rgb(213, 40, 89);">
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+
+
+    (All these dresses can be customised according to your size and colour of your choice.Our
+    sprecialities are
+    paintings of different types,stitching patterns and designing.)</h6>
+
+  <!-- !PAGE CONTENT! -->
+  <section style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+
+    <div class="w3-main w3-content w3-padding" style="max-width:1000px;margin-top:100px">
+      <h1 class="w3-center" style="font-style: bold;">Collection</h1>
+
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <img src="./css/indian1.jpg" alt="Image" style="width:221.99px; height:423.8px" class="zoom">
+          <h3 style="font-size: 20px; font-style:italic "> Pakistani sharara dress made of crepe and
+            embroidered fabric with organza dupatta.</h3>
+          <!-- <p>This perfect Indian outfit is a formal suit made of crepe shirt with shararas and organza dupatta.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian2.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">This gown gives a reception look and is made of pure
+            silk with tri-coloured sequins making it perfect for the occasion.</h3>
+          <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian3.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Shimmer organza gown with multi coloured bead work on yoke
+            giving it a princess look.The puff sleeves are cherry on the cake. </h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+          <!-- <p>What else?</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian4.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Hand painted and hand embroidered suit with pure dupatta.It
+            can
+            be customised in any colour of your choice.</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+      </div>
+
+      <!-- Second Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <img src="./css/indian5.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Slay and sway in our classic anarkali which is a match of
+            handwork
+            and glitter paint with an embroidered dupatta is giving a queen look.It is a silk based anarkali and can be
+            customised in any colour of your choice.</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian6.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">You can never go wrong with a white outfit on any day.This
+            multicoloured handblocked anarkali with block and lace details all over is faultless to rock your summer
+            looks.</h3>
+          <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian7.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Ban neck silk shirt with trouser and pure silk long coat.Good
+            to go for get-togthers,it can be customised according to your size.</h3>
+          <!-- <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian8.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">A beautiful indo-western dress consisting of a hand
+            embroidered jacket
+            and a skirt with a waist belt.</h3>
+          <!-- <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="w3-main w3-content w3-padding" style="max-width:1000px;margin-top:100px">
+
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <img src="./css/indian9.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">This hand painted suit is ideal to give you a subtle look and
+            make you feel beautiful.
+          </h3>
+          <!-- <p>This perfect Indian outfit is a formal suit made of crepe shirt with shararas and organza dupatta.</p> -->
+
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian10.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Pretty pink indo-western dress with
+            peplum top is tailored on pure silk based fabric.This dress is embelished with different beads and sequins
+            which are making it an eye-grabber.</h3>
+          <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian11.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Satin hot pink drape saree with katdana and bead work for your
+            special occasions and celebrations!</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+          <!-- <p>What else?</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian12.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Black is always an outstanding colour!Multicolored angrakha
+            one piece with delicacy of pearls on a heavy georgette fabric making it a appealing outfit.</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="w3-main w3-content w3-padding" style="max-width:1000px;margin-top:100px">
+
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-quarter">
+          <img src="./css/indian13.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">This handprinted cotton top is good enough to keep you cool
+            and stylish throughout the day.
+          </h3>
+          <!-- <p>This perfect Indian outfit is a formal suit made of crepe shirt with shararas and organza dupatta.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian14.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Pure silk brocade jacket with a black gown underneath to give
+            it a perfect
+            indo-western look.The hand embroidery on its neck and sleeves is making the dress look graceful.</h3>
+          <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian15.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Evergreen combination of black and white with gotta patti work
+            on waist-coat is a contemporary look to this dress.
+          </h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+          <!-- <p>What else?</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian16.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Pakistani style kurta set is embroidered on the
+            sleeves.This is a signature piece by Queenz closet.</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="w3-main w3-content w3-padding" style="max-width:1000px;margin-top:100px">
+
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter">
+          <img src="./css/indian17.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Beat the heat with these trendy tops in linen.</h3>
+          <!-- <p>This perfect Indian outfit is a formal suit made of crepe shirt with shararas and organza dupatta.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/test2(jasleeen).jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">This western dress with noodle strap and gathers on yoke is
+            giving it a premier english look.It is made on chiffon fabric and the print will vary according to the
+            trend.</h3>
+          <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian19.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">One piece georgette gown with this embellished belt and one
+            shoulder sequins cape is a fashion statement for any party.</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+          <!-- <p>What else?</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian20.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">White and red crepe anarkali with hand painting and glitter
+            paint is
+            absolute to make your princess look like one!</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="w3-main w3-content w3-padding" style="max-width:1000px;margin-top:100px">
+
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter">
+          <img src="./css/indian21.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Complete haldi outfit with a crepe sharara and chanderi
+            silk
+            shirt with beautiful hand embroidered long neck.</h3>
+          <!-- <p>This perfect Indian outfit is a formal suit made of crepe shirt with shararas and organza dupatta.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian22.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Baby pink cord-set in shendlier net is giving it an elegant
+            look.A splendid outfit to make you look smart.</h3>
+          <!-- <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian23.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">Orange colour is associated with sunshine and happiness.This
+            jacket style dress with handwork on the front is superb for your special events and trousseau. </h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+          <!-- <p>What else?</p> -->
+        </div>
+        <div class="w3-quarter">
+          <img src="./css/indian24.jpg" alt="Image" style="width:221.99px; height:423.8px"  class="zoom">
+          <h3 style="font-size: 20px; font-style:italic ">MAHARANI lehenga is fully embellished with beads.Wear to
+            a close wedding and slay!</h3>
+          <!-- <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p> -->
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <!-- About Section -->
+  <hr id="Testimonials">
+  <section style="background-color: rgb(195, 187, 187)">
+    <footer class="w3-row-padding w3-padding-32" style="background-color: rgb(195, 187, 187)"></footer>
+    <div class="w3-full">
+      <h1 class="w3-center" style="font-style: bold;">Testimonials</h1>
+      <ul class="w3-ul">
+        <li class="w3-padding-36">
+          <img src="./css/test2(jasleeen).jpg" class="w3-left w3-margin-right" style="width:150px; height:200px;">
+          <span class="w3-large"
+            style="font-style: oblique; font: size 50px; font-style:bold; font-size:xx-large">Jasleeen Kaur</span><br>
+          <span style="font-size: larger;">It has been an amazing experience getting work done by Queenz
+            closet.Perfectly finsihed..well tailored
+            and beautifully designed by Sabneet. I recommend everyone to give her a chance to create your closet in an
+            innovative way. </span>
+    </div>
+  </section>
+  <section style="background-color: rgb(195, 187, 187)">
+    <footer class="w3-row-padding w3-padding-32" style="background-color: rgb(195, 187, 187)"></footer>
+    <div class="w3-full">
+      <ul class="w3-ul">
+        <li class="w3-padding-36">
+          <img src="./css/test2(tarun massi).jpg" class="w3-left w3-margin-right" style="width:150px; height:200px;">
+          <span class="w3-large"
+            style="font-style: oblique; font: size 50px; font-style:bold; font-size:xx-large">Tarundeep Kaur</span><br>
+          <span style="font-size: larger;">Queenz closet has never let me down and has always been my one stop station
+            for all kinds of dresses.Mrs.Sabneet is always very patient and after listening to all my requirements,she
+            designs a perfect dress!I highly recommend all of you to try her designs! </span>
+    </div>
+  </section>
+  <section style="background-color: rgb(195, 187, 187)">
+    <footer class="w3-row-padding w3-padding-32" style="background-color: rgb(195, 187, 187)"></footer>
+    <div class="w3-full">
+      <ul class="w3-ul">
+        <li class="w3-padding-36">
+          <img src="./css/test3(aunty).jpg" class="w3-left w3-margin-right" style="width:150px; height:200px;">
+          <span class="w3-large"
+            style="font-style: oblique; font: size 50px; font-style:bold; font-size:xx-large">Gurdeep Soni</span><br>
+          <span style="font-size: larger;">Sabneet has a perfect taste in clothing.I got a dress made for my wedding
+            anniversary and that dress made me feel beautiful on my special day.I absolutely love the designs and her
+            collection. </span>
+    </div>
+  </section>
+  <section style="background-color: rgb(195, 187, 187)">
+    <footer class="w3-row-padding w3-padding-32" style="background-color: rgb(195, 187, 187)"></footer>
+    <div class="w3-full">
+      <ul class="w3-ul">
+        <li class="w3-padding-36">
+          <img src="./css/test4(neeti aunty).jpg" class="w3-left w3-margin-right" style="width:150px; height:200px;">
+          <span class="w3-large" style="font-style: oblique; font: size 50px; font-style:bold; font-size:xx-large">Neeti
+            Grover</span><br>
+          <span style="font-size: larger;">Queenz closet is one stop where we can find great deals,modish elegant
+            wear!My experience with Queenz closet has been magnificent!Mrs.Sabneet is absolutely outstanding in helping
+            me select the perfect dress each time i visit!I would surely recommend everyone to shop here to add a
+            special charm in their occasions. </span>
+    </div>
+  </section>
+  <section style="background-color: rgb(195, 187, 187)">
+    <footer class="w3-row-padding w3-padding-32"></footer>
+    <div class="w3-full">
+      <ul class="w3-ul">
+        <li class="w3-padding-36">
+          <img src="./css/test5(simrata dang).jpeg" class="w3-left w3-margin-right" style="width:150px; height:200px;">
+          <span class="w3-large"
+            style="font-style: oblique; font: size 50px; font-style:bold; font-size:xx-large">Simrata Dang</span><br>
+          <span style="font-size: larger;">I was tired of switching boutiques and designers but then I came across
+            Queenz closet through instagram.I am very happy with the services.It was an amazing experience! </span>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32" style="background-color: rgb(195, 187, 187)" id="Contact Us">
+    <hr>
+
+    <div class="w3-full w3-seogeUI w3-center" style="background-color: rgb(195, 187, 187);">
+      <h1 style="font-style:bold;">Contact Us </h1>
+      <p style="font: size 20px;">Owner:-Sabneet Sachdeva <br>
+        Contact Number:-8847677802 <br>
+        Address:-609-R Model Town,Ludhiana,Punjab <br>
+        Email-id:-Queencloset2016@gmail.com</p>
+      <p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3423.8112214747684!2d75.83851131487798!3d30.891941584993546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a83b28ea11089%3A0x1de580e2532f34db!2s609-LR%2C%20Model%20Town%20Rd%2C%20Harnam%20Nagar%2C%20Model%20Town%2C%20Ludhiana%2C%20Punjab%20141002!5e0!3m2!1sen!2sin!4v1652286188923!5m2!1sen!2sin"
+          width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+        <a href="https://instagram.com/queenz_closet2016?igshid=YmMyMTA2M2Y=" target="_blank"
+          class="w3-tag w3-pink w3-small w3-margin-bottom">Instagram</a>
+        <a href=https://www.facebook.com/BYSABNEETsachdeva/ target="_blank"
+          class="w3-tag w3-blue w3-small w3-margin-bottom">Facebook</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
